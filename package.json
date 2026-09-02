@@ -1,0 +1,22 @@
+{
+  "name": "google-search-kbnav",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keyboard navigation for Google search results",
+  "type": "module",
+  "packageManager": "bun@1.4.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "clean": "bun run scripts/clean.ts",
+    "build:js": "tsc --project tsconfig.build.json",
+    "minify": "bun run scripts/minify.ts",
+    "build": "bun run clean && bun run build:js && bun run minify && bun run scripts/copy-static.ts",
+    "package": "bun run build && bun run scripts/package.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "fflate": "^0.8.3",
+    "terser": "^5.51.2",
+    "typescript": "^7.0.2"
+  }
+}
