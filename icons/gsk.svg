@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title description">
+  <title id="title">GSK extension icon</title>
+  <desc id="description">The letters GSK on a rounded blue square.</desc>
+
+  <rect x="2" y="2" width="124" height="124" rx="28" fill="#174ea6"/>
+
+  <text
+    x="64"
+    y="83"
+    fill="#ffffff"
+    font-family="Nimbus Sans, Arial, sans-serif"
+    font-size="58"
+    font-weight="700"
+    letter-spacing="-3"
+    text-anchor="middle"
+  ><tspan fill="#8ab4f8">G</tspan><tspan fill="#ff6d60">S</tspan><tspan fill="#fdd663">K</tspan></text>
+</svg>

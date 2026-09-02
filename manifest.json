@@ -2,7 +2,14 @@
   "manifest_version": 3,
   "name": "Google Search Keyboard Navigator",
   "version": "1.0.0",
+  "author": "Udara Wanasinghe <udara.developer@gmail.com>",
   "description": "Navigate and open Google search results with keyboard shortcuts: j/k, a/s or arrows to move, Enter to open, numbers to jump, and more.",
+  "icons": {
+    "16": "icons/gsk-16.png",
+    "32": "icons/gsk-32.png",
+    "48": "icons/gsk-48.png",
+    "128": "icons/gsk-128.png"
+  },
   "content_scripts": [
     {
       "matches": [
