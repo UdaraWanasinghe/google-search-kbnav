@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Google Search Keyboard Navigator",
   "version": "1.0.0",
-  "description": "Navigate and open Google search results with keyboard shortcuts: j/k or arrows to move, Enter to open, numbers to jump, and more.",
+  "description": "Navigate and open Google search results with keyboard shortcuts: j/k, a/s or arrows to move, Enter to open, numbers to jump, and more.",
   "content_scripts": [
     {
       "matches": [
