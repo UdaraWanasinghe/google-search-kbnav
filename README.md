@@ -3,6 +3,8 @@
 A small Chrome extension (Manifest V3) that lets you navigate and open Google
 search results entirely from the keyboard.
 
+[![Available in the Chrome Web Store](https://img.shields.io/badge/Available%20in%20the-Chrome%20Web%20Store-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/plbfbakblkbmlpejcihefjahocmdmmni)
+
 ## Shortcuts
 
 | Key            | Action                        |
